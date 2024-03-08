@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culinary Campus Cafe</title>
+    <link rel = "stylesheet" href = "index.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+        .border-container {
+            width: 80%; /* Adjust the width as needed */
+            margin: 0 auto; /* Center the container */
+            border-bottom: 2px solid red; /* Set the border properties */
+        }
+
+        /* Rest of your styles go here */
+        footer {
+            text-align: center;
+            padding: 3px;
+            background-color: black;
+            color: white;
+        }
+        section {
+            text-align: left;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        ul {
+            list-style-position: inside;
+            padding-left: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style = "border:rgb(255, 25, 0); border-width:5px; border-style:solid; text-align:center;background-color:black;color:white"> <strong>Culinary Campus Cafe</strong></h1>
+    <div class="navbar" style = "padding:30px; text-align:center">
+        <a href="./index.html">Home</a>
+        
+        <div class="dropdown">
+          <button class="dropbtn">Food Items
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="./food.html">Food</a>
+            <a href="./drinks.html">Drinks</a>
+            <a href="./menu.html">Full Menu</a>
+            
+          </div>
+        </div>
+        <a href="./faq.html">FAQs</a>
+        <a href = "./authors.html">Owners</a>
+        
+      </div>
+    </div>
+
+    <h2 style = "border:rgb(255, 25, 0); border-width:2.5px; border-style:solid; text-align:center;background-color:black;color:white">Full Menu</h2>
+    <div class="border-container" style = "border:rgb(255, 25, 0); border-width:2.5px; border-style:solid; text-align:center;background-color:black;color:white">
+      <h2 style = text-align:center>Welcome to Culinary Campus Cafe's Full Menu!</h2>
+      <p>Indulge in a delightful culinary experience with our diverse menu offering a perfect blend of classic and innovative flavors. 
+        From mouthwatering burgers and crispy fries to refreshing shakes, we have something for every palate.</p>
+      <section>
+        <h2 style = text-align:center>Signature Meals</h2>
+        <ul>
+            <li>
+                <strong>Burger Feast - $14.99</strong>
+                <p>Enjoy our iconic half-pound hamburger served with golden fries and your choice of a classic Pepsi or Diet Pepsi.</p>
+            </li>
+            <li>
+                <strong>Nugget Combo - $11.99</strong>
+                <p>Savor the crispiness of our Chicken Nuggets (set of 10) with a side salad and your preferred drink - Sprite or Dr. Pepper.</p>
+            </li>
+            <li>
+                <strong>Salad Delight - $10.99</strong>
+                <p>Dive into a healthy yet flavorful experience with our signature Salad, including protein options. Paired perfectly with a Vanilla Milkshake.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2 style = text-align:center>À La Carte</h2>
+        <p>Choose from a variety of options:</p>
+        <ul>
+            <li>Burgers: A variety of options from the classic Burger to Chicken Nuggets and a refreshing Salad.</li>
+            <li>Sides: Crispy Fries, perfect on their own or as a complement to your meal.</li>
+            <li>Refreshing Drinks: From classic Pepsi and Diet Pepsi to Sprite, Dr. Pepper, and handcrafted shakes including Vanilla, Chocolate, and Oreo.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2 style = text-align:center>Make It a Meal</h2>
+        <p>Upgrade any burger or salad to a meal by adding $3.99, which includes a side of fries and your choice of a regular soft drink or a small shake.</p>
+    </section>
+
+    <p>Join us at Culinary Campus Cafe, where each bite is a celebration of taste and quality!</p>
+
+  </div>
+
+      <div id = "foods"></div>
+      <div id = "drinks"></div>
+      <script src = "menu.js"></script>
+    
+      <style>
+        body {
+          background-image: url('https://image.spreadshirtmedia.com/image-server/v1/compositions/T1089A2PA3955PT17X10Y0D1035295808W7577H7577/views/1,width=550,height=550,appearanceId=2,backgroundColor=000000,noPt=true/burgers-and-fries-foodie-pattern-beanie.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+        </style>
+    
+
+       
+    <footer class="text-body-secondary py-5">
+        <div class="container">
+            <p>Lincoln Olsen and Ryan Martin</p>
+            <p class="float-end mb-1">
+                <a href="#">Back to top</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

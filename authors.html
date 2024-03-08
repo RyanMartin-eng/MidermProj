@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culinary Campus Cafe</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+    
+        main {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 0px;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="border: rgb(255, 25, 0); border-width: 5px; border-style: solid; text-align: center; background-color: black; color: white;">
+        <strong>Culinary Campus Cafe</strong>
+    </h1>
+    <div class="navbar" style="padding: 30px; text-align: center;">
+        <a href="./index.html">Home</a>
+        
+        <div class="dropdown">
+            <button class="dropbtn">Food Items
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="./food.html">Food</a>
+                <a href="./drinks.html">Drinks</a>
+                <a href="./menu.html">Full Menu</a>
+            </div>
+        </div>
+        <a href="./faq.html">FAQs</a>
+        <a href="./authors.html">Owners</a>
+    </div>
+
+    <h2 style="border: rgb(255, 25, 0); border-width: 2.5px; border-style: solid; text-align: center; background-color: black; color: white;">
+        Owners Information
+    </h2>
+
+    <main style="display: flex; justify-content: space-around;">
+
+        <section>
+            <h1 style="text-align: center; border: rgb(255, 25, 0); border-width: 2.5px; border-style: solid; text-align: center; background-color: black; color: white;">
+                About Us - Lincoln Olsen and Ryan Martin
+            </h1>
+        </section>
+
+        <section id="about" style="display: flex; gap: 20px;">
+            <div class="container" style="border: 2px solid rgb(250, 4, 4); padding: 10px; background-color: black; width: 550px;">
+                <img src="./images/ResumePhotoActivity04.png" alt="Profile Photo">
+                <h1>Lincoln Olsen</h1>
+                <p style="font-family: 'Courier New', Courier, monospace; color: rgb(249, 110, 110); font-size: 40px;">Software
+                    Engineering</p>
+                <p style="color: white;">I am an undergraduate student at Iowa State University majoring in Software Engineering.
+                    I am a student in SE319, COMS309, CPRE310, ENGL314, and COMS321. Throughout the semester,
+                    I will be doing a lot of frontend work by learning more about languages and databases in
+                    SE319, and developing a mobile video game in COMS309.
+                </p>
+            </div>
+
+            <div class="container" style="border: 2px solid rgb(251, 4, 4); padding: 10px; background-color: black; width: 550px;">
+                <img src="./images/ryan_martin.jpg" alt="Profile Photo" width="200" height="250">
+                <h1>Ryan Martin</h1>
+                <p style="font-family: 'Courier New', Courier, monospace; color: rgb(249, 110, 110); font-size: 40px;">Software Engineering</p>
+                <p style="color: white;">I am a sophomore student at Iowa State University studying software engineering. This semester Spring
+                    2024 I am taking ComS327 and SE/ComS319.
+                    I am taking a total of 15 credits this semester.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <style>
+        body {
+          background-image: url('https://www.rememberthefilter.com/cdn/shop/articles/A_Restaurant_Owner_s_Guide_to_Indoor_Air_Quality.jpg?v=1691613478');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+          margin: 0;
+        }
+
+        /* footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top:10px;
+        } */
+    </style>
+
+    <footer class="text-body-secondary py-5">
+        <div class="container">
+            <p>Lincoln Olsen and Ryan Martin</p>
+            <p class="float-end mb-1">
+                <a href="#">Back to top</a>
+            </p>
+        </div>
+    </footer>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

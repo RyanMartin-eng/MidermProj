@@ -1,0 +1,90 @@
+{
+    "food": [
+      {
+        
+        "title": "Burger",
+        "price": "$9.99",
+        "description":"A declicious half pound hamburger served with lettuce, tomato and pickles on a sesame bun. Extra topping are available.",
+        "url": "https://freepngimg.com/thumb/bacon/77400-king-whopper-hamburger-burgers-food-cheeseburger-fast.png"
+      },
+      {
+        
+        "title": "Chicken Nuggets",
+        "price": "$8.99",
+        "description":"Cripsy fresh chicken nuggets. Comes in a set of 10, dipping sauces available.",
+        "url": "https://freepngimg.com/thumb/biscuit/61313-king-whopper-sandwich-nugget-fries-mcdonald's-bk.png"
+      },
+      {
+        
+        "title": "Salad",
+        "price": "$7.99",
+        "description":"Romaine lettuce with tomatoes, crutons, and cucumber. Protein options and additional toppings available.",
+        "url": "https://w7.pngwing.com/pngs/650/1008/png-transparent-greek-salad-caesar-salad-wrap-bean-salad-pasta-salad-salad-vegetable-salad-leaf-vegetable-food-recipe.png"
+      },
+      {
+        
+        "title": "Fries",
+        "price": "$2.99",
+        "description":"Crispy classic cut fries salted to perfection. Available as a side order or as a compliment to a meal.",
+        "url": "https://125785504.cdn6.editmysite.com/uploads/1/2/5/7/125785504/s947468469679061890_p19_i7_w1080.png"
+      }
+    ],
+    "drinks": [
+        {
+          
+          "title": "Pepsi",
+          "price": "$1.99",
+          "description":"Classic Pepsi.",
+          "url": "https://pngfre.com/wp-content/uploads/Pepsi-9.png"
+        },
+        {
+          
+          "title": "Diet Pepsi",
+          "price": "$1.99",
+          "description":"Classic Pepsi with no sugar.",
+          "url": "https://www.pngkey.com/png/detail/75-756896_diet-pepsi-6pk-12oz-cans-pepsi-new.png"
+        },
+        {
+          
+          "title": "Sprite",
+          "price": "$1.99",
+          "description":"Classic Sprite.",
+          "url": "https://banner2.cleanpng.com/20180405/llw/kisspng-sprite-fizzy-drinks-coca-cola-fanta-beverage-can-fanta-5ac6ccd31049e5.4630086415229780030667.jpg"
+        },
+        {
+          
+          "title": "Dr. Pepper",
+          "price": "$1.99",
+          "description":"Classic Dr. Pepper.",
+          "url": "https://p7.hiclipart.com/preview/525/712/996/fizzy-drinks-coca-cola-fanta-dr-pepper-coca-cola.jpg"
+        },
+        {
+          
+            "title": "Diet Dr. Pepper",
+            "price": "$1.99",
+            "description":"Classic Diet Dr. Pepper with no sugar.",
+            "url": "https://www.snackoree.com/media/catalog/product/cache/1/image/600x600/9df78eab33525d08d6e5fb8d27136e95/d/d/ddrp_can_2.png"
+          },
+        {
+          
+            "title": "Vanilla Milkshake",
+            "price": "$4.99",
+            "description":"Homemade vanilla milkshake, best in town.",
+            "url": "https://e7.pngegg.com/pngimages/488/394/png-clipart-glass-of-vanilla-cream-with-cherry-on-top-sundae-milkshake-frappe-coffee-ice-cream-malted-milk-ice-cream-cream-food-thumbnail.png"
+          },
+        {
+          
+            "title": "Chocolate Milkskake",
+            "price": "$4.99",
+            "description":"Homemade chocolate milkshake made with hersheys chocolate and brownie crumbles.",
+            "url": "https://image.similarpng.com/very-thumbnail/2022/02/Chocolate-milkshake-isolated-on-transparent-background-PNG.png"
+          },
+        {
+          
+            "title": "Oreo Milkshake",
+            "price": "$5.99",
+            "description":"Homemade oreo milkshake made with whipped cream and oreo crumbles.",
+            "url": "https://w7.pngwing.com/pngs/279/362/png-transparent-milkshake-drinks-oreo-thumbnail.png"
+          }
+      ]
+  }
